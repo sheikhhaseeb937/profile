@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.parent {
+  height: 100vh;
+  /* border: 3px solid black; */
+  display: flex;
+}
+
+.leftbar {
+  height: 100%;
+  width: 25%;
+  background-color:rgb(243, 243, 243);
+  border: 1px solid black;
+}
+
+.rightbar {
+  height: 100%;
+  width: 75%;
+  /* border: 3px solid black; */
+  position: relative;
+}
+
+/* navbar */
+.nav {
+  height: 80px;
+  width: 100%;
+  /* background-color:white; */
+  display: flex;
+  align-items: center;
+}
+
+.nav-profile {
+  height: 40px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.nav-profile h1 {
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.nav-profile img {
+  border-radius: 50%;
+
+
+}
+.nav-profile img:hover {
+transform: scale(1.3);
+
+
+}
+.material-symbols-outlined:hover{
+  transform: scale(1.5);
+}
+.pro-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.cover {
+  height: 300px;
+  width: 100%;
+  /* background-color:white ; */
+}
+
+.cover img {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.box {
+  height: 600px;
+  width: 90%;
+  /* border: 1px solid gray; */
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 270px;
+  /* background-color: white; */
+}
+
+.card1 {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+border: 1px solid rgb(88, 88, 88);
+
+}
+
+
+
+.img {
+  height: 280px;
+  width: 100%;
+  text-align: center;
+
+  /* border: 2px solid black; */
+  border-bottom: 1px solid gray;
+}
+
+.img img {
+  width: 80%;
+  height: 70%;
+  border-radius: 50%;
+
+
+}
+.ctn{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+text-transform:capitalize;
+ border-bottom: 1px solid black;
+ width: 100%;
+ height: 50px;
+}
+.ctn p{
+color: rgb(255, 208, 0);
+font-weight: bolder;
+}
+.viewprofile{
+/* border-bottom: 1px solid black; */
+width: 100%;
+height: 150px;
+margin-top: 30px;
+
+}
+.pro{
+  border: 1px solid rgb(0, 0, 0);
+margin: 0px auto;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.link{
+  border: 1px solid rgb(0, 0, 0);
+margin: 0px auto;
+  width: 80%;
+  height: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.pro a{
+font-weight: bolder;
+font-size: larger;
+text-decoration: none;
+
+} 
+.pro a:hover{
+color: blue;
+transform: scale(1.1);
+
+  } 
+.link a{
+  font-weight: bolder;
+  font-size:medium ;
+  text-decoration: none;
+  } 
+  .link a:hover{
+    color: blue;
+    transform: scale(1.1);
+    } 
+.card2 {
+  height: 100%;
+  width: 70%;
+  border: 1px solid rgb(70, 70, 70);
+  background-color: white;
+
+}
+.navcard2{
+  border-bottom: 1px solid black;
+  height: 50px;
+  display: flex;
+align-items: center;
+ cursor: pointer;
+}
+.navcard2 li:hover{
+  color: blue;
+  font-size: larger;
+  /* border-bottom: 2px solid blue; */
+  transition:0.5;
+}
+.navcard2 ul{
+  list-style-type: none;
+  display: flex;
+
+  font-size: large;
+  font-weight: bolder;
+  
+}
+.navcard2 li{
+  padding-left:20px;
+
+}
+
+.form{
+display: flex;
+justify-content: center ;
+gap: 30px;
+margin-top: 30px;
+}
+.input p{
+  font-size:1.2em;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.input input{
+  width:280px;
+  height: 40px;
+  padding-left: 10px;
+  
+
+}
+#s1{
+  width:280px;
+  height: 40px;
+  /* padding-left: 10px; */
+}
+
+.btn button{
+width: 100px;
+height: 50px;
+margin-left: 50px;
+margin-top: 50px;
+border: none;
+color: white;
+background-color:blue;
+border-radius: 5px;
+
+}
+.btn button:hover{
+  transform: scale(1.2);
+
+}
+.left_text {
+  width: 70%;
+  height: 80%;
+  /* background-color: blueviolet;  
+     border: 2px solid black;  */
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+/* border: 2px solid black; */
+width: 30px;
+height: 500px;
+cursor: pointer;
+
+}
+.icon span{
+  padding-top: 30px;
+}
+.icon span:hover{
+transform: scale(1.5);
+color: blue;
+  }
+  
+.icon-text{
+  /* border: 2px solid black; */
+width: 150px;
+height: 500px;
+cursor: pointer;
+font-size: larger;
+}
+.icon-text li:hover{
+  text-decoration: underline;
+  color: blue;
+  transform: scale(1.2);
+  }
+  
+.icon-text ul{
+list-style-type: none;
+  
+}
+.icon-text li{
+  padding-top:35px;
+
+}
+
+.icon i {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+  cursor: pointer;
+
+
+}
